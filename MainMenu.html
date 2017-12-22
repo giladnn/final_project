@@ -1,0 +1,52 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <link rel="stylesheet" type="text/css" href="MainMenu.css">
+        <link rel="stylesheet" type="text/css" href="BaseGame.css">
+        
+        <div class="container dad" style="width: 100%; padding: 0;">
+          <div  style="float: left;">
+                <button onclick="setCurTime()" type="button">move 5 secods back</button><br> 
+                <video id="myVideo" width="320" height="176" controls>
+                        <source src="movie.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                  Your browser does not support HTML5 video.
+                </video>
+          </div>
+          <!-- <div id="contentContainer"  style="float: left;">
+                <div id="thing">
+                </div>
+              
+          </div> -->
+            <div  style="float: right;">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="grow vertical-tab-0">
+                                <p class="tab-title">0</p> 
+                                <p class="rotate">Base Game</p>
+                            </div>
+                        <div class="grow vertical-tab-1">
+                            <p class="tab-title">1</p> 
+                            <p class="rotate">Game 1</p>
+                        </div>
+                        <div class="grow vertical-tab-2">
+                            <p class="tab-title">2</p> 
+                            <p class="rotate">About</p>
+                        </div>
+                        <div class="grow vertical-tab-3">
+                                <p class="tab-title">3</p> 
+                                <p class="rotate">Game 3</p>
+                        </div>
+                        <div class="grow vertical-tab-4">
+                            <p class="tab-title">4</p> 
+                            <p class="rotate">Contact</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="videoController.js"></script>
+    <script src="baseGame.js"></script>
+    
+</html>
